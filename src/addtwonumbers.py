@@ -1,4 +1,3 @@
-
 def addtwonumbers(a, b):
     """
     Return the sum of two numbers.
