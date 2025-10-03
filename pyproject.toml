@@ -25,5 +25,6 @@ packages = [
 ]
 [dependency-groups]
 dev = [
-    "pytest (>=8.4.2,<9.0.0)"
+    "pytest (>=8.4.2,<9.0.0)",
+    "converge (>=1.1.1,<2.0.0)"
 ]
