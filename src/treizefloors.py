@@ -1,4 +1,4 @@
-
+# pylint: disable=missing-module-docstring
 def treize_floors(x):
     """
     Adjust floor numbering to skip the 13th floor, as is common in some
@@ -30,8 +30,4 @@ def treize_floors(x):
     """
     if x in range(0,13):
         return x
-    else:
-        return x+1
-
-
- 
+    return x+1

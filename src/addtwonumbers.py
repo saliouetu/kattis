@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def addtwonumbers(a, b):
     """
     Return the sum of two numbers.
@@ -21,6 +22,4 @@ def addtwonumbers(a, b):
     >>> addtwonumbers(1.5, 2.5)
     4.0
     """
-    return (a + b)
-
-
+    return a + b

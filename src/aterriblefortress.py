@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 
 def aterriblefortress(n, l):
     """
@@ -30,4 +31,3 @@ def aterriblefortress(n, l):
         blaze_count = l[i]
         total += blaze_count
     return total
-

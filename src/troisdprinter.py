@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def trois_d_printer(x):
     """
     Calculate the minimum number of days required for a printer to produce
@@ -34,6 +35,3 @@ def trois_d_printer(x):
         printer = printer + 2**day
         day+=1
     return day+1
-
-
- 

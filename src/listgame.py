@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def listgame(n):
     """
     Count the total number of prime factors of a given number `n`.
@@ -40,8 +41,4 @@ def listgame(n):
         d += 1
     if n > 1:
         count += 1
-    return count
-
-
- 
-        
+    return count 

@@ -10,7 +10,8 @@ readme = "README.md"
 requires-python = "^3.10"
 dependencies = [
     "cisco-sdwan (>=1.26,<2.0)",
-    "requests (>=2.32.5,<3.0.0)"
+    "requests (>=2.32.5,<3.0.0)",
+    "pylint (>=4.0.2,<5.0.0)"
 ]
 
 

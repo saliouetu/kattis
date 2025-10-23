@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def aaah(jonah, doctorah):
     """
     Determine whether Jonah can say "aaah" long enough for the doctor.
@@ -27,8 +28,4 @@ def aaah(jonah, doctorah):
     """
     if jonah.count('a') >= doctorah.count('a'):
         return "go"
-    else:
-        return "no"
-
-
-
+    return "no"

@@ -1,4 +1,4 @@
-
+# pylint: disable=missing-module-docstring
 def lvable(s):
     """
     Classify a string based on the presence of the letters 'l' and 'v'.
@@ -34,11 +34,4 @@ def lvable(s):
         return 0
     if 'l' in s or 'v' in s:
         return 1
-    else:
-        return 2
-
-
-
-
-
-    
+    return 2

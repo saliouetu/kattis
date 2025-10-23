@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def abc(nums, order):
     """
     Arrange three numbers according to a specified letter order.
@@ -33,6 +34,3 @@ def abc(nums, order):
     mapping = {'A': nums[0], 'B': nums[1], 'C': nums[2]}
     result = [str(mapping[ch]) for ch in order]
     return " ".join(result)
-
-
-

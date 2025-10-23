@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 def anewalphabet(l):
     """
     Convert a string into a "leet" or stylized alphabet.
