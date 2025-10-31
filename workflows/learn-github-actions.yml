@@ -1,6 +1,11 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
 
 jobs:
   build:
@@ -22,3 +27,11 @@ jobs:
       - run: poetry run coverage run -m pytest
 
       - run: poetry run coverage report -m
+
+      - name: Lint with Pylint
+        run: poetry run pylint src
+
+      - name: Run tests and coverage
+        run: |
+          poetry run coverage run -m pytest
+          poetry run coverage report -m

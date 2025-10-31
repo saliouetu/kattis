@@ -542,4 +542,25 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE
+!.vscode/
+
+# Poetry
+poetry.lock
+
+# Cache
+.pytest_cache/
+.ruff_cache/
+
 # End of https://www.toptal.com/developers/gitignore/api/latex,python,visualstudiocode,windows
