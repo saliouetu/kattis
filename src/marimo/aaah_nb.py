@@ -38,5 +38,20 @@ def aaah(jonah, doctorah):
     return "no"
 
 
+@app.cell
+def _():
+    import marimo as mo
+
+    jon = mo.ui.text(label="Jonah", value="aaah")
+    dr = mo.ui.text(label="Doctor", value="ah")
+    return dr, jon, mo
+
+
+@app.cell
+def _(dr, jon, mo):
+    mo.md(f"""Result: {aaah(jon.value, dr.value)}""")
+    return
+
+
 if __name__ == "__main__":
     app.run()
